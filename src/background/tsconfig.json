@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "lib": ["WebWorker", "DOM"]
+  },
+  "include": ["src/**/*"]
+}

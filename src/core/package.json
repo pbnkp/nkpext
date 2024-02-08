@@ -1,0 +1,30 @@
+{
+  "name": "@extension/core",
+  "version": "0.0.0",
+  "author": "puemos",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "@types/redux-logger": "3.0.9",
+    "prettier": "2.8.7",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "1.9.3",
+    "redux": "4.2.1",
+    "redux-logger": "3.0.6",
+    "redux-observable": "2.0.0",
+    "rxjs": "7.8.0",
+    "typesafe-actions": "5.1.0"
+  }
+}
